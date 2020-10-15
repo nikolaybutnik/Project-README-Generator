@@ -28,7 +28,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Select a license which your project is covered under:",
-        choices: ["MIT", "Apache 2.0", "GPLv3"]
+        choices: ["MIT", "Apache 2.0", "GPLv3", "AGPLv3", "LGPLv3", "Mozilla Public License 2.0", "Boost Software License 1.0", "The Unlicense"]
     },
     {
         type: "input",
