@@ -8,7 +8,7 @@ A simple command line application for quickly generating README files to speed u
 
 [A demo of the application can be viewed here](https://drive.google.com/file/d/1Kt9QDTq-LRW3dmFBWVrjcf8_edQds5pg/view)
 
-![Project README Generator Image](https://github.com/nikolaybutnik/Project-README-Generator/blob/master/project-readme-generator-screenshot.png?raw=true)
+![Project README Generator Image](https://github.com/nikolaybutnik/Project-README-Generator/blob/main/project-readme-generator-screenshot.png?raw=true)
 
 ## Table of Contents
 
