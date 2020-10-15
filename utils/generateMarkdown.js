@@ -48,7 +48,7 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  You may directly email any questions related to this project or any of my other projects to ${dataObj.email}. To find all my projects visit [my GitHub profile](https://github.com/${dataObj.github}).
+  You may directly send any questions related to this project or any of my other projects to [my email adress](mailto:${dataObj.email}). To find all my projects visit [my GitHub profile](https://github.com/${dataObj.github}).
 
 `;
 }
