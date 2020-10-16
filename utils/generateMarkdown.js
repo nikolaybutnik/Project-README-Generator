@@ -1,7 +1,8 @@
-// function to generate markdown for README
+// Function to generate markdown for README
 function generateMarkdown(data) {
   const dataObj = JSON.parse(data)
   let licensebadge = ""
+  // Obtain a license badge based on user input
   if (dataObj.license === "MIT") {
     licensebadge = `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
   } else if (dataObj.license === "Apache 2.0") {
@@ -19,6 +20,8 @@ function generateMarkdown(data) {
   } else if (dataObj.license === "The Unlicense") {
     licensebadge = `[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)`
   } 
+
+  // Return a template and plug in the values input by user
   return `# ${dataObj.title}
 
   ${licensebadge}

@@ -63,7 +63,7 @@ function writeToFile(fileName, data) {
     })
 }
 
-// function to initialize program
+// function to initialize program. Questions are presented to use with inquirer and responses are received as a promise.
 function init() {
     inquirer
     .prompt(questions)
