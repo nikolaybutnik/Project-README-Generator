@@ -25,8 +25,8 @@ Run `npm install` from the CLI to ensure all dependencies are installed.
 
 ## Usage
 
-Run `index.js` from the CLI and follow onscreen instructions. The application will prompt the user for a series of inputs. After the final input has been entered, all the inputs are inserted into a pre-written
-template and written to a README file. The file is located in the `/generated_readme` folder. Note that upon running the application again, thr file will be overwritten.
+Run `node index.js` from the CLI and follow onscreen instructions. The application will prompt the user for a series of inputs. After the final input has been entered, all the inputs are inserted into a pre-written
+template and written to a README.md file. The file is located in the `/generated_readme` folder. Note that upon running the application again, the file will be overwritten.
 
 ## License
 
